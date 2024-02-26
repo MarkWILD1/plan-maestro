@@ -11,7 +11,7 @@ const {
 } = require('../controllers/clienteControllers');
 
 router.post('/', createCliente);
-router.get('/', getClientes);
+router.get('/getClient', getClientes);
 router.get('/:id', getClienteById);
 router.put('/:id', updateClienteById);
 router.delete('/:id', deleteClienteById);
